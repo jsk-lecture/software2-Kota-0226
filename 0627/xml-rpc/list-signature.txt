@@ -1,0 +1,15 @@
+POST /sw/xmlrpc/demo/server/server.php HTTP/1.0
+User-Agent: Frontier/5.1.2 (WinNT)
+Host: gggeek.altervista.org
+Content-Type: text/xml
+Content-length: 192
+
+<?xml version="1.0"?>
+<methodCall>
+   <methodName>system.methodSignature</methodName>
+   <params>
+     <param><value><string>examples.addtwo</string></value></param>
+   </params>
+</methodCall>
+
+

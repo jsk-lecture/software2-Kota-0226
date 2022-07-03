@@ -1,0 +1,13 @@
+POST /sw/xmlrpc/demo/server/server.php HTTP/1.0
+User-Agent: Frontier/5.1.2 (WinNT)
+Host: gggeek.altervista.org
+Content-Type: text/xml
+Content-length: 117
+
+<?xml version="1.0"?>
+<methodCall>
+   <methodName>system.listMethods</methodName>
+   <params></params>
+</methodCall>
+
+
